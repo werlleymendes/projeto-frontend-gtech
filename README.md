@@ -15,7 +15,7 @@ Projeto Front End Geração Tech
 - Section
 
 
-## Mateus
+## Matheus
 - ProductListingPage
 - Logo
 - ProductOptions
