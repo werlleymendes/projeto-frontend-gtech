@@ -10,7 +10,7 @@ Projeto Front End Geração Tech
 ## Werley
 - ProductViewPage
 - Header (feito, falta revisar e adicionar os links e a lógica de pesquisa quando os outros componentes tiverem prontos)
-- Footer
+- Footer (Feito, falta aprovação)
 - ProductCard
 - Section
 
