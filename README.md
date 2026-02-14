@@ -3,13 +3,13 @@ Projeto Front End Geração Tech
 
 ## Felipe
 - HomePage
-- Header
 - ProductListing
 - BuyBox
 - ProductDetails
 
 ## Werley
 - ProductViewPage
+- Header (feito, falta revisar e adicionar os links e a lógica de pesquisa quando os outros componentes tiverem prontos)
 - Footer
 - ProductCard
 - Section

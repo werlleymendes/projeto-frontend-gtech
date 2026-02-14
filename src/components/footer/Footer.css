@@ -1,0 +1,85 @@
+#footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+#superior{
+    display: flex;
+    flex-direction: row;
+}
+#sup1{
+    width: 40%;
+}
+#sup2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    width: 60%;
+}
+#cardlogo{
+    padding-left: 80px;
+    padding-top: 60px
+}
+#cardlogo img{
+    width: 280px;
+    height: auto;
+}
+#cardlogo p{
+    padding-top: 30px;
+    padding-right: 100px;
+    color: #FFFFFF;
+    font-size: larger;
+    text-align: justify;
+    width: 440px;
+}
+#redessociais{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding-left: 80px ;
+    padding-top: 40px;
+}
+#infogeral{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 60px;
+}
+#infogeral h2{
+    color: #FFFFFF;
+}
+#infogeral p{
+    font-size: large;
+    color: #FFFFFF;
+    
+}
+#info{
+    padding-right: 170px;
+}
+#categorias{
+    padding-right: 170px;
+}
+#contato{
+    padding-right: 0;
+}
+#linha{
+    
+    height: 1px;                
+    background-color: #FFFFFF;  
+    
+    margin-top: 40px;           
+    margin-left: 80px;          
+    margin-right: 80px;         
+    border: none;               
+    clear: both;                
+}
+#digitalcollege{
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}

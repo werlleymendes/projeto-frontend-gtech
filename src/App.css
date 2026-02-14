@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Garante que o corpo ocupe toda a altura da tela */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* O conteúdo principal cresce para preencher o espaço vazio */
+main {
+  flex: 1;
+}
