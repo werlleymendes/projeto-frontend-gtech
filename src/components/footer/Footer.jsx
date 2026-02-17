@@ -39,8 +39,8 @@ function Footer (){
                             <h2>Contato</h2>
                             <br />
                             <br />
-                            <p>Av. Santos Dumont, 1510 - 1<br />
-                               andar -Aldeota, Fortaleza -<br />
+                            <p>Av. Santos Dumont, 1510 - 1
+                               andar -Aldeota, Fortaleza -
                                CE, 60150-161
                             </p><br />
                             <p>(85) 3051-3431</p>

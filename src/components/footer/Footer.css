@@ -1,27 +1,34 @@
 #footer{
     width: 100%;
-    height: 500px;
+    min-height: 100px;
+    height: 100%;
     background-color: black;
+    
 }
 #superior{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 #sup1{
     width: 40%;
+    min-width: 300px;
 }
 #sup2{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
     padding-top: 60px;
     width: 60%;
 }
 #cardlogo{
     padding-left: 80px;
-    padding-top: 60px
+    padding-top: 20px
 }
 #cardlogo img{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: auto;
 }
 #cardlogo p{
@@ -30,7 +37,8 @@
     color: #FFFFFF;
     font-size: larger;
     text-align: justify;
-    width: 440px;
+    max-width: 440px;
+    width: 100%;
 }
 #redessociais{
     display: flex;
@@ -45,7 +53,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding-right: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    flex-wrap: wrap;
+    width: 100%;
 }
 #infogeral h2{
     color: #FFFFFF;
@@ -55,14 +66,10 @@
     color: #FFFFFF;
     
 }
-#info{
-    padding-right: 170px;
-}
-#categorias{
-    padding-right: 170px;
-}
 #contato{
     padding-right: 0;
+    max-width: 300px;
+    width: 100%;
 }
 #linha{
     
@@ -82,4 +89,92 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    #footer{
+        width: 100%;
+    }
+    #superior{
+        width: 100%;
+    }
+    #sup1 {
+        width: 100%; 
+        padding-left: 0;
+       
+    }
+    #sup2 {
+        width: 100%; 
+        padding-left: 20px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #cardlogo, #redessociais {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin: 0;
+    }
+    #cardlogo img{
+        padding-left: 20px;
+        width: 60%;
+    }
+    #cardlogo p{
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 16px;
+        width: 100%;
+        
+    }
+    #infogeral {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: flex-start; 
+        align-items: flex-start;
+        padding-top: 0;
+        width: 100%;
+        gap: 20px;
+    }
+    #info, #categorias {
+        
+        padding-right: 0;
+        min-width: 140px;
+        flex: 1;          
+    }
+    #contato{
+        padding-top: 20px;
+        padding-right: 0;
+        flex: 1;
+        min-width: 200px;
+        text-align: start;
+        width: 100%;
+    }
+    #redessociais{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+        gap: 30px;
+    }
+    #infogeral h2{
+        font-size: 20px;
+    }
+    #infogeral p{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    #linha{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
