@@ -1,21 +1,31 @@
-function Footer (){
-    return(
-        <div id="footer">
-            <div id="superior">
-                <div id="sup1">
-                    <div id="cardlogo">
-                        <img src="./src/assets/logo-footer.svg" alt="Logo digital Store" id="logo"/>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius. Nam deserunt explicabo minima alias omnis expedita maiores in nulla eveniet necessitatibus.</p>    
+import styles from './Footer.module.css';
+
+function Footer() {
+    return (
+        <div id={styles.footer}>
+            <div id={styles.superior}>
+                <div id={styles.sup1}>
+                    <div id={styles.cardlogo}>
+                        <img 
+                            src="./src/assets/logo-footer.svg" 
+                            alt="Logo digital Store" 
+                            id={styles.logo}
+                        />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eius. 
+                            Nam deserunt explicabo minima alias omnis expedita maiores in nulla 
+                            eveniet necessitatibus.
+                        </p>    
                     </div>
-                    <div id="redessociais">
+                    <div id={styles.redessociais}>
                         <img src="./src/assets/facebook.svg" alt="Facebook" />
                         <img src="./src/assets/instagram.svg" alt="Instagram" />
                         <img src="./src/assets/twitter.svg" alt="Twitter" />
                     </div>
                 </div>
-                <div id="sup2">
-                    <div id="infogeral">
-                        <div id="info">
+                <div id={styles.sup2}>
+                    <div id={styles.infogeral}>
+                        <div id={styles.info}>
                             <h2>Informação</h2>
                             <br />
                             <br />
@@ -26,7 +36,7 @@ function Footer (){
                             <p>Trabalhe Conosco</p><br />
                             <p>Meus Pedidos</p>
                         </div>
-                        <div id="categorias">
+                        <div id={styles.categorias}>
                             <h2>Categorias</h2><br />
                             <br />
                             <p>Camisetas</p><br />
@@ -35,26 +45,25 @@ function Footer (){
                             <p>Headphones</p><br />
                             <p>Tênis</p>
                         </div>
-                        <div id="contato">
+                        <div id={styles.contato}>
                             <h2>Contato</h2>
                             <br />
                             <br />
-                            <p>Av. Santos Dumont, 1510 - 1
-                               andar -Aldeota, Fortaleza -
-                               CE, 60150-161
+                            <p>
+                                Av. Santos Dumont, 1510 - 1 andar - Aldeota, 
+                                Fortaleza - CE, 60150-161
                             </p><br />
                             <p>(85) 3051-3431</p>
-            
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="linha"></div>
-            <div id="digitalcollege">
+            <div id={styles.linha}></div>
+            <div id={styles.digitalcollege}>
                 <p>@2026 Digital College</p>
             </div>
         </div>
-    )
+    );
 }
 
 export default Footer;
